@@ -6,7 +6,7 @@ import 'jest-canvas-mock'
 import { MyCounter } from '../src'
 
 describe('Common render', () => {
-    it('renders without crashing', () => {
-        render(<MyCounter />)
-    })
+  it('renders without crashing', () => {
+    render(<MyCounter />)
+  })
 })
